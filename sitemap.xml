@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset>
+    <url>
+        <loc>http://127.0.0.1/index.php/Home/Index/article/aid/20</loc>
+        <lastmod>2017-04-09</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>http://127.0.0.1/index.php/Home/Index/article/aid/19</loc>
+        <lastmod>2017-04-09</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>http://127.0.0.1/index.php/Home/Index/article/aid/18</loc>
+        <lastmod>2017-03-08</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+</urlset>

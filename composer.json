@@ -1,0 +1,19 @@
+{
+    "name": "新闻发布系统",
+    "description": "发布新闻资讯",
+    "type": "news",
+    "keywords": ["新闻发布系统","新闻","news"],
+    "homepage": "",
+    "license": "Apache2",
+    "authors": [
+        {
+            "name": "sqwei",
+            "email": "shenquanwei@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "minimum-stability": "dev"
+}
+

@@ -1,0 +1,33 @@
+<!-- 顶部导航开始 -->
+<header id="b-public-nav" class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/" onclick="recordId('/',0)">
+                <div class="hidden-xs b-nav-background"></div>
+                <p class="b-logo-word">新闻发布系统</p>
+                <p class="b-logo-end">&nbsp;</p>
+            </a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav b-nav-parent">
+                <li class="hidden-xs b-nav-mobile"></li>
+                <li class="b-nav-cname <eq name="cid" value="index">b-nav-active</eq> " >
+                    <a href="/" onclick="recordId('/',0)">首页</a>
+                </li>
+                <foreach name="categorys" item="v">
+                    <li class="b-nav-cname <eq name="cid" value="$v['cid']">b-nav-active</eq> ">
+                        <a href="{:U('Home/Index/category',array('cid'=>$v['cid']))}" onclick="return recordId('cid',{$v['cid']})">{$v['cname']}</a>
+                    </li>
+                </foreach>
+            </ul>
+            
+        </div>
+    </div>
+</header>
+<!-- 顶部导航结束 -->
